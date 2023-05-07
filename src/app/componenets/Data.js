@@ -1,0 +1,93 @@
+import {
+    product01,
+    product02,
+    product05,
+    product07,
+    product08,
+    product09,
+  } from "../assests";
+  export const productData = [
+    {
+      id: 1,
+      image: product01,
+      category: "Electronic",
+      name: "Laptop",
+      old_price: "12000",
+      new_price: "10000",
+      rating: "4.5",
+      numReviews: "12",
+      stock_status: "true",
+      description: "lorem mdbjs jsdbjsdbvjsbvhsf jsdbvjsbvjvjbj",
+    },
+    {
+      id: 2,
+      image: product02,
+      category: "Electronic",
+      name: "Laptop",
+      old_price: "",
+      new_price: "10000",
+      rating: "5",
+      numReviews: "12",
+      stock_status: "true",
+      description: "",
+    },
+    {
+      id: 3,
+      image: product05,
+      category: "Electronic",
+      name: "mobile",
+      old_price: "",
+      new_price: "10000",
+      rating: "1",
+      numReviews: "12",
+      stock_status: "true",
+      description: "",
+    },
+    {
+      id: 4,
+      image: product07,
+      category: "food",
+      name: "Laptop",
+      old_price: "",
+      new_price: "10000",
+      rating: "",
+      numReviews: "12",
+      stock_status: "true",
+      description: "",
+    },
+    {
+      id: 5,
+      image: product08,
+      category: "food",
+      name: "Laptop",
+      old_price: "",
+      new_price: "10000",
+      rating: "",
+      numReviews: "12",
+      stock_status: "true",
+      description: "",
+    },
+    {
+      id: 6,
+      image: product09,
+      category: "Computer",
+      name: "computer",
+      old_price: "900000",
+      new_price: "700000",
+      rating: "4",
+      numReviews: "12",
+      stock_status: "true",
+      description: "",
+    },
+  ];
+  export const email = "gsmahato8@gmail.com";
+  export const phoneNumber = "9844101543";
+  export const location = "Sanepa-2,Lalitpur";
+  
+  export const sitedetails = [
+    {
+      email,
+      phoneNumber,
+      location,
+    },
+  ];
